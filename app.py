@@ -32,8 +32,8 @@ col1, col2 = st.columns([1,4])
 with col1:
     st.image("logo.png", width=80)  # ganti dengan logo kamu
 with col2:
-    st.title("🔬 Prediksi Kanker Payudara")
-st.write("Masukkan nilai fitur dari dataset Breast Cancer Wisconsin")
+    st.title("Prediksi Kanker Payudara")
+st.write("Masukkan nilai fitur dari data pasien")
 
 # Layout input (2 kolom)
 col1, col2 = st.columns(2)
